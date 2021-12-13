@@ -61,7 +61,6 @@ export const getStaticProps = async({params}) => {
       slug: params.slug
     }
   });
-  console.log('post', post)
   return {
     props: {
       postData: post.article
